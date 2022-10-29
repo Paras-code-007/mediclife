@@ -37,6 +37,12 @@
          margin-top: 20px;
       }
 
+      .new_text {
+         font-weight: bold;
+         font-size: 24px;
+         color: #fff;
+      }
+
    </style>
 </head>
 
@@ -85,36 +91,89 @@
       <div class="container">
          <h1 class="health_taital">Find affordable Lab Tests NearBy</h1>
          <p class="health_text">labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-         <div class="news_section_2 layout_padding">
+         <div class="news_section_2">
             <div class="row medrow">
                <div class="col-lg-4 col-sm-6">
-                  <div class="box_main">
-                     <div class="icon_1"><img src="images/icon-2.png"></div>
-                     <h4 class="daily_text">Daily care experts</h4>
-                  </div>
+                  <button id="ult" class="ult" style="width: 100%;">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="images/icon-2.png"></div>
+                        <h4 class="daily_text">Ultrasound</h4>
+                     </div>
+                  </button>
                </div>
                <div class="col-lg-4 col-sm-6">
-                  <div class="box_main">
-                     <div class="icon_1"><img src="images/icon-3.png"></div>
-                     <h4 class="daily_text_1">Available 24/7</h4>
-                  </div>
+                  <button>
+                     <div class="box_main">
+                        <div class="icon_1"><img src="images/icon-3.png"></div>
+                        <h4 class="daily_text">Computed Tomography</h4>
+                     </div>
+                  </button>
                </div>
                <div class="col-lg-4 col-sm-6">
-                  <div class="box_main">
-                     <div class="icon_1"><img src="images/icon-4.png"></div>
-                     <h4 class="daily_text_1">Balanced care</h4>
-                  </div>
+                  <button>
+                     <div class="box_main">
+                        <div class="icon_1"><img src="images/icon-4.png"></div>
+                        <h4 class="daily_text">Digital Radiography</h4>
+                     </div>
+                  </button>
                </div>
             </div>
             <div class="row medrow">
                <div class="col-lg-4 col-sm-6">
-                  <div class="box_main">
-                     <div class="icon_1"><img src="images/icon-4.png"></div>
-                     <h4 class="daily_text_1">Balanced care</h4>
-                  </div>
+                  <button>
+                     <div class="box_main">
+                        <div class="icon_1"><img src="images/icon-p.png"></div>
+                        <h4 class="daily_text_1">Computed Radiography</h4>
+                     </div>
+                  </button>
                </div>
             </div>
          </div>
+      </div>
+      <div class="container" id="labsites" style="display: none;">
+         <table class="table">
+            <thead class="thead-dark">
+               <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Lab Name</th>
+                  <th scope="col">Cost</th>
+                  <th scope="col">Location</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th scope="row">1</th>
+                  <td><a href="./medical-laboratry/index.html">KK laboratory</a></td>
+                  <td>1000</td>
+                  <td>Near Lifecare Hospital ,22 Number , Railway Flyover, Bhupindra Rd, Patiala, Punjab 147001</td>
+               </tr>
+               <tr>
+                  <th scope="row">2</th>
+                  <td><a href="./medical-laboratry/index.html">Rapid Laboratory</a></td>
+                  <td>1200</td>
+                  <td>Address: Bhadson Rd, Prem Nagar, Patiala, Punjab 147001</td>
+               </tr>
+               <tr>
+                  <th scope="row">3</th>
+                  <td><a href="./medical-laboratry/index.html">Health Care Laboratory</a></td>
+                  <td>1200</td>
+                  <td>992W+2J4, Sirhind Road, near B.N. Khalsa School, Patiala, Punjab 147001</td>
+               </tr>
+               <tr>
+                  <th scope="row">3</th>
+                  <td><a href="./medical-laboratry/index.html">Intermediate Reference Laboratory, Patiala</a></td>
+                  <td>1300</td>
+                  <td>89PX+88W, Government Medical College, Sangrur Rd, opposite Rajindra Hospital, Patiala, Punjab
+                     147001</td>
+               </tr>
+               <tr>
+                  <th scope="row">3</th>
+                  <td>Government Drug Testing laboratory</td>
+                  <td>1400</td>
+                  <td>8CM2+RC3, Lahori Gate, Patiala, Punjab 147001</td>
+               </tr>
+            </tbody>
+         </table>
       </div>
    </div>
    <div class="getquote_bt"><a href="#">Get A Quote <span><img src="images/right-arrow.png"></span></a></div>
@@ -180,6 +239,7 @@
    <!-- javascript -->
    <script src="js/owl.carousel.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   <script src="./labs.js"></script>
 </body>
 
 </html>
