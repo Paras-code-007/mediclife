@@ -54,7 +54,7 @@
                   <a class="nav-link" href="medicine.html">Medicine</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" href="news.html">News</a>
+                  <a class="nav-link" href="laboratory.html">Laboratory</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="client.html">Client</a>
@@ -225,45 +225,49 @@
                      </div>
                   </div>
                </div>
-               <ul class="listfk">
+               <div class="divlistfk">
+                  <ul class="listfk">
 
-               </ul>
-            </div>
-            <div class="right_main">
-               <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
+                  </ul>
+               </div>
+               <button class="btn btn-dark cbtn" id="cbt">Predict</button>
+               <div class="aftercbtn">You have </div>
             </div>
          </div>
       </div>
    </div>
    <!-- knowledge section end -->
    <!-- news section start -->
-   <div class="news_section layout_padding">
-      <div class="container">
-         <h1 class="health_taital">Hospitals Associated with Us</h1>
+   <div class="news_section layout_padding" id="nearbyhosp" style="display: none;">
+      <div class="container hosp">
+         <h1 class="health_taital">Hospitals and Doctors Best for this disease</h1>
          <p class="health_text">63 out of 100 Top Tier Hospitals are associated with us</p>
          <div class="news_section_2 layout_padding">
             <div class="row">
                <div class="col-lg-4 col-sm-6">
-                  <div class="box_main">
-                     <div class="icon_1"><img src="images/icon-2.png"></div>
-                     <h4 class="daily_text">Daily care experts</h4>
-                  </div>
+                  <a href="./hospital/dist/index.html">
+                     <div class=" box_main">
+                        <h4 class="new_text">SOUTHCOAST HOSPITAL GROUP INC</h4>
+                     </div>
+                  </a>
                </div>
                <div class="col-lg-4 col-sm-6">
-                  <div class="box_main active">
-                     <div class="icon_1"><img src="images/icon-3.png"></div>
-                     <h4 class="daily_text_1">Available 24/7</h4>
-                  </div>
+                  <a href="./hospital/dist/index.html">
+                     <div class=" active box_main">
+                        <h4 class="new_text">ST VINCENT HOSPITAL</h4>
+                     </div>
+                  </a>
                </div>
                <div class="col-lg-4 col-sm-6">
-                  <div class="box_main">
-                     <div class="icon_1"><img src="images/icon-4.png"></div>
-                     <h4 class="daily_text_1">Balanced care</h4>
-                  </div>
+                  <a href="./hospital/dist/index.html">
+                     <div class=" box_main">
+                        <h4 class="new_text">BOSTON MEDICAL CENTER CORPORATION</h4>
+                     </div>
+                  </a>
                </div>
             </div>
          </div>
-         <div class="getquote_bt"><a href="#">Get A Quote <span><img src="images/right-arrow.png"></span></a></div>
+         <!-- <div class="getquote_bt"><a href="#">Get A Quote <span><img src="images/right-arrow.png"></span></a></div> -->
       </div>
    </div>
    <!-- news section end -->
@@ -431,6 +435,7 @@
    <script src="js/owl.carousel.js"></script>
    <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
    <script src="./dropdowns.js"></script>
+   <script src="./hospitals.js"></script>
 </body>
 
 </html>

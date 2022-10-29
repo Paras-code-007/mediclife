@@ -61,6 +61,10 @@
     margin-right: 4px;
 }
 
+.divlistfk {
+    height: 150px;
+}
+
 .listfk {
     display: flex;
 }
@@ -68,4 +72,24 @@
 .listfk li {
     margin: 0px 10px;
     font-size: medium;
+}
+
+.cbtn {
+    width: 200px;
+}
+
+.aftercbtn {
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+.newclass {
+    color: white;
+}
+
+.new_text {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
 }
