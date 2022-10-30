@@ -63,10 +63,12 @@
 
 .divlistfk {
     height: 150px;
+    max-width: 1500px;
 }
 
 .listfk {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .listfk li {
